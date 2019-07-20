@@ -1,0 +1,6 @@
+FROM postgres:9.6
+MAINTAINER YMonnier 
+
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD Brasilio.123
+ENV POSTGRES_DB DB_Calculadora

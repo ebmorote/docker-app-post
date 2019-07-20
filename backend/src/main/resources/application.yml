@@ -1,0 +1,13 @@
+## YAML Template.
+---
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/DB_Calculadora
+        username: postgres
+        password: Brasilio.123
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
+server:
+    port: 8450
